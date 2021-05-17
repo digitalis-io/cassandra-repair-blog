@@ -1,11 +1,11 @@
 # Repair Script
 
 **Repair Script** (`repair_script.sh`) is a tool that allows you to easily manage your Cassandra repairs.
-The repair is a full repair with only one job.
+
 
 
 ## Requirements
-The tool works on all Cassandra versions above 2.0 .
+The tool works on all Cassandra versions 2.0 and laters.
 
 
 ## Command Line Parameters
@@ -19,7 +19,7 @@ The tool works on all Cassandra versions above 2.0 .
      |   -s, start_token (token where to start the repair)
 
 
-> **Note**:  All the arguments are optional but if you specify a table, you need to specify also the keyspace. The start token and the end token also need to be always specified or not both together.
+> **Note**:  All the arguments are optional but if you specify the table, you need to specify also the keyspace. The start token and the end token also need to be always specified or not together.
 
 ## Basic Usage
 **Repair Script** is run through a command-line interface, so all of the command options are made available there.
